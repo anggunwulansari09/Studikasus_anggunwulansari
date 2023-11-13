@@ -10,21 +10,15 @@
 
 <body style="background-color: #8aa0db;">
     <!-- tabel -->
-    <form action="proses.php" method="post" >
+    <form action="proses_kategori.php" method="post" >
         <h4 style="margin-top: 20px;  text-align: center; margin-right: 100px;">Data pesanan</h4>
         <p style="text-align: center; ">Silahkan lengkapi data untuk menambahkannya </p>
         <table width="25%" align="center">
             <tr>
                 <td>
-                    Tanggal Pesanan
+                    Nama Kategori
                 </td>
-                <td><input type="date" name="tanggal_pesanan" class="form-control" required=""></td>
-            </tr>
-            <tr>
-                <td>
-                    ID Pelanggan
-                </td>
-                <td><input type="number" name="pelanggan_id" class="form-control" required=""></td>
+                <td><input type="text" name="nama_kategori" class="form-control" required=""></td>
             </tr>
             <td></td>
             <td><input type="submit" name="submit" value="Submit" class="btn btn-primary btn-sm"></td>

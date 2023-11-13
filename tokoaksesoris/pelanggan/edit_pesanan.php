@@ -32,23 +32,6 @@ foreach ($pesanan as $pesanan) {
 }
 ?>
 <body style="background-color: #8aa0db;">
-    <!-- navbar dan menu -->
-    <nav class="navbar navbar-expand-lg bg-body-#ffd903;" style="background-color: #ffd903; height: 50px;">
-        <div class="container-fluid">
-            <img src="penjualan.png" alt="Logo" width="70" height="40" style="padding-top: 2px; ">
-            <a class="navbar-brand" href="#" style="margin-left: 10px; font-family:Times New Roman;font-size: 25px;">Admin</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="http://localhost/Tugas_php/Sesi29/index.php" style="margin-left: 900px; font-family:Times New Roman; font-size: 20px;">Customer</a>
-                    <a class="nav-link" href="http://localhost/Tugas_php/Sesi29/barang/index.php" style="font-family:Times New Roman; font-size: 20px;">Barang</a>
-                    <a class="nav-link" href="http://localhost/Tugas_php/Sesi29/kategori/index.php" style="font-family:Times New Roman; font-size: 20px;">Kategori</a>
-                </div>
-            </div>
-        </div>
-    </nav>
     <!-- tabel -->
     <form name="tambahpesananForm" action="proses_edit_pesanan.php?id=<?php echo $id; ?>" method="post" onsubmit="return validateForm();">
         <h4 style="margin-top: 50px;  text-align: center; margin-right: 115px;">Edit Data pelanggan</h4>

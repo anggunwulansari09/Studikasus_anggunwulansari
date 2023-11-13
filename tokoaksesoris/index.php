@@ -42,22 +42,12 @@
                         <button class="menu-toggle"><span></span><span></span></button>
                         <nav class="header-menu">
                             <ul class="menu food-nav-menu">
-                                <li><a href="#home">Home</a></li>
+                                <li><a href="#">Home</a></li>
                                 <li><a href="#about">About</a></li>
-                                <li><a href="#menu">Menu</a></li>
+                                <li><a href="#menu">Item</a></li>
                                 <li><a href="#gallery">Gallery</a></li>
                                 <li><a href="#blog">Blog</a></li>
-                                <!-- <li><a href="#contact">Contact</a></li> -->
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Admin
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="http://localhost/ProjectAnggun/tokoaksesoris/pelanggan/index.php">Pelanggan</a></li>
-                                        <li><a class="dropdown-item" href="http://localhost/ProjectAnggun/tokoaksesoris/barang/index.php">barang</a></li>
-                                        <li><a class="dropdown-item" href="http://localhost/ProjectAnggun/tokoaksesoris/kategori/index.php">kategori</a></li>
-                                    </ul>
-                                </li>
+                                
                             </ul>
                         </nav>
                         <div class="header-right">
@@ -71,7 +61,7 @@
                                 <i class="uil uil-shopping-bag"></i>
                                 <span class="cart-number">3</span>
                             </a>
-                            <a href="javascript:void(0)" class="header-btn">
+                            <a href="pelanggan/index.php" class="header-btn"> 
                                 <i class="uil uil-user-md"></i>
                             </a>
                         </div>
@@ -98,15 +88,14 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="banner-text">
-                                    <h1 class="h1-title">
+                                    <h3 class="h1-title">
                                         Welcome to our
-                                        <span>India</span>
-                                        restaurant.
-                                    </h1>
-                                    <p>This is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam eius
-                                        vel tempore consectetur nesciunt? Nam eius tenetur recusandae optio aperiam.</p>
+                                        <span>Accessories</span>
+                                        shop
+                                    </h3>
+                                    <p>Ini adalah website penjualan toko akseoris</p>
                                     <div class="banner-btn mt-4">
-                                        <a href="#menu" class="sec-btn">Check our Menu</a>
+                                        <a href="#menu" class="sec-btn">Check our item</a>
                                     </div>
                                 </div>
                             </div>
@@ -125,6 +114,9 @@
                 </div>
             </section>
 
+            <a href="pelanggan/index.php">pelanggan</a>
+            <a href="pesanan/index.php">pelanggan</a>
+            <a href="barang/index.php">pelanggan</a>
 
             <section class="brands-sec">
                 <div class="container">
@@ -154,7 +146,7 @@
                     </div>
                 </div>
             </section>
-<!-- about -->
+            <!-- about -->
             <section class="about-sec section" id="about">
                 <div class="container">
                     <div class="row">
@@ -190,8 +182,8 @@
                     </div>
                 </div>
             </section>
-<!-- end about -->
-<!-- barang -->
+            <!-- end about -->
+            <!-- barang -->
             <section style="background-image: url(assets/images/menu-bg.png);" class="our-menu section bg-light repeat-img" id="menu">
                 <div class="sec-wp">
                     <div class="container">

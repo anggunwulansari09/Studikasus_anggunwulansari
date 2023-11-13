@@ -10,25 +10,25 @@
 
 <body style="background-color: #8aa0db;">
     <!-- tabel -->
-    <form action="proses_dp.php" method="post" >
+    <form action="proses_detail_pesanan.php" method="post" >
         <h4 style="margin-top: 20px;  text-align: center; margin-right: 100px;">Data pesanan</h4>
         <p style="text-align: center; ">Silahkan lengkapi data untuk menambahkannya </p>
         <table width="25%" align="center">
             <tr>
                 <td>
-                    ID Pesanan
+                   Pesanan ID
                 </td>
                 <td><input type="number" name="pesanan_id" class="form-control" required=""></td>
             </tr>
             <tr>
                 <td>
-                    ID Barang
+                    Barang ID
                 </td>
                 <td><input type="number" name="barang_id" class="form-control" required=""></td>
             </tr>
             <tr>
                 <td>
-                   Jumlah Barang
+                    Jumlah Barang
                 </td>
                 <td><input type="number" name="jumlah_barang" class="form-control" required=""></td>
             </tr>
@@ -43,7 +43,6 @@
             </tr>
         </table>
     </form>
-
 </body>
 
 </html>
